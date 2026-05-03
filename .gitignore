@@ -1,0 +1,73 @@
+﻿# Virtual Environment
+venv/
+env/
+.env
+.venv/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Large Dataset Files (host on Kaggle)
+sparkov.csv
+transactions.csv
+*.parquet
+
+# Saved Models (too large for GitHub)
+outputs/lstm_model.keras
+outputs/isolation_forest.pkl
+outputs/scaler.pkl
+
+# Generated Plots
+outputs/*.png
+outputs/*.jpg
+outputs/user_timelines/
+
+# Generated Reports
+reports/fraud_alerts.txt
+reports/flagged_transactions.csv
+reports/user_risk_summary.csv
+
+# Unrelated CSVs
+msft.csv
+Stocks.csv
+data_x_x2_x3.csv
+breast_cancer.csv
+iris.csv
+wine_data.csv
+linnerud_*.csv
+umath-validation-set-*.csv
+mt19937-testset-*.csv
+pcg64-testset-*.csv
+pcg64dxsm-testset-*.csv
+philox-testset-*.csv
+sfc64-testset-*.csv
+
+# IDE Files
+.vscode/
+.idea/
+*.code-workspace
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Temp
+*.tmp
+*.bak
+*.swp
+
+# Data folders
+data/
+datasets/
